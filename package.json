@@ -1,0 +1,23 @@
+{
+  "name": "hps-javascript-codeceptjs",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/hiptest/hps-javascript-codeceptjs.svg?branch=master)](https://travis-ci.org/hiptest/hps-javascript-codeceptjs)",
+  "main": "codecept.conf.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfathallah/hps-javascript-codeceptjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfathallah/hps-javascript-codeceptjs/issues"
+  },
+  "homepage": "https://github.com/mfathallah/hps-javascript-codeceptjs#readme",
+  "devDependencies": {
+    "codeceptjs": "^2.3.2",
+    "puppeteer": "^1.20.0"
+  }
+}

@@ -4,7 +4,7 @@ exports.config = {
     Puppeteer: {
       url: 'https://hiptest.github.io/hps-java-junit-selenium/src/web/coffee_machine.html',
       restart: false,
-      show: false
+      show: true
     }
   },
   include: {
